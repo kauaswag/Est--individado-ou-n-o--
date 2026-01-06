@@ -1,8 +1,8 @@
 function EstaIndividado(receita, gastos) {
   if (receita < gastos) {
-    return "Está individado ! ";
+    return "Está negativo(a) ! ";
   } else {
-    return "Não está individado !";
+    return "Está positivo(a) !";
   }
 }
 
